@@ -1,0 +1,26 @@
+{
+  "name": "rnChromiumBrowser",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-giga-full-screen": "^1.0.3",
+    "react-native-giga-web-view": "1.0.7",
+    "react-native-orientation-locker": "^1.3.1",
+    "react-native-webview": "git@github.com:gigasource/react-native-webview.git#v10.3.3-giga"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "metro-react-native-babel-preset": "^0.59.0"
+  }
+}
